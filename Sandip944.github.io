@@ -1,4 +1,4 @@
-SANDIP MANDAL FRESH TOKRI MANDAL STORE KISHANGANJ BAJAR 
+FRESH TOKRI 
 <!DOCTYPE html>
 <html lang="hi">
 <head>
@@ -87,7 +87,7 @@ SANDIP MANDAL FRESH TOKRI MANDAL STORE KISHANGANJ BAJAR
 <body>
 
     <div class="header">
-        🍏 Fresh Tokri
+        🍏 SANDIP MANDAL FRESH TOKRI 
     </div>
 
     <div class="container">
