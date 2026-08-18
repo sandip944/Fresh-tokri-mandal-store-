@@ -1,44 +1,96 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fresh Tokri Mandal Store</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
-            font-size: 24px;
-        }
-        .container {
-            padding: 50px;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            font-size: 18px;
-            color: #666;
-        }
-        .btn {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            font-size: 18px;
-            border-radius: 5px;
-            display: inline-block;
-            margin-top: 20px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fresh Tokri | Fresh Sabzi Home Delivery</title>
+<meta name="description" content="Fresh Tokri - ताज़ी सब्ज़ियों की home delivery. Minimum order ₹100.">
+<style>
+*{box-sizing:border-box} body{margin:0;font-family:Arial,sans-serif;background:#f7fbf6;color:#17351e}
+header{background:#0b7a35;color:white;padding:18px 20px;position:sticky;top:0;z-index:5}
+.nav{max-width:1050px;margin:auto;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:27px;font-weight:800}.tag{font-size:13px;opacity:.9}
+.hero{max-width:1050px;margin:auto;padding:55px 20px 35px;text-align:center}
+.hero h1{font-size:44px;margin:8px 0;color:#075f2a}.hero p{font-size:19px;line-height:1.6}
+.btn{display:inline-block;background:#0b7a35;color:#fff;text-decoration:none;padding:14px 23px;border-radius:30px;font-weight:700;margin:8px}
+.btn.alt{background:#f0b400;color:#222}
+.cards{max-width:1050px;margin:auto;padding:15px 20px 45px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:white;border-radius:18px;padding:22px;box-shadow:0 4px 18px #00000010;text-align:center}
+.card h3{margin:8px 0}.icon{font-size:38px}
+.section{max-width:1050px;margin:auto;padding:25px 20px 50px}.section h2{text-align:center;font-size:30px;color:#075f2a}
+.info{background:#fff;border-radius:18px;padding:25px;box-shadow:0 4px 18px #00000010;line-height:1.8}
+.areas{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}.pill{background:#e4f5e8;padding:9px 14px;border-radius:22px}
+footer{background:#12351d;color:#fff;text-align:center;padding:28px 20px}
+.small{font-size:14px;opacity:.85}
+@media(max-width:700px){.hero h1{font-size:34px}.cards{grid-template-columns:1fr}.logo{font-size:23px}}
+</style>
 </head>
 <body>
+<header>
+  <div class="nav">
+    <div class="logo">🥬 Fresh Tokri</div>
+    <div class="tag">Fresh • Clean • Home Delivery</div>
+  </div>
+</header>
 
+<main>
+<section class="hero">
+  <div style="font-size:58px">🥦🍅🥕</div>
+  <h1>Fresh Sabzi, Seedha Aapke Ghar</h1>
+  <p>ताज़ी और अच्छी सब्ज़ियाँ घर तक मंगाइए। आज की सब्ज़ियों के दाम WhatsApp पर पूछें और आसानी से order करें।</p>
+  <a class="btn" href="https://wa.me/919199569545?text=Namaste%20Fresh%20Tokri%2C%20mujhe%20sabzi%20order%20karni%20hai." target="_blank">📲 WhatsApp पर Order करें</a>
+  <a class="btn alt" href="#delivery">🛵 Delivery Areas</a>
+</section>
+
+<section class="cards">
+  <div class="card"><div class="icon">🥬</div><h3>ताज़ी सब्ज़ियाँ</h3><p>रोज़ की जरूरत की सब्ज़ियाँ उपलब्धता के अनुसार।</p></div>
+  <div class="card"><div class="icon">🛵</div><h3>Home Delivery</h3><p>आपके इलाके में delivery सुविधा।</p></div>
+  <div class="card"><div class="icon">💬</div><h3>Easy WhatsApp Order</h3><p>WhatsApp पर message करके order करें।</p></div>
+</section>
+
+<section class="section">
+<h2>कैसे Order करें?</h2>
+<div class="info">
+  <b>1.</b> WhatsApp पर अपना सामान और quantity भेजें।<br>
+  <b>2.</b> हम availability और total amount बताएँगे।<br>
+  <b>3.</b> Order confirm होने के बाद delivery आपके पते पर पहुँचाई जाएगी।<br><br>
+  <b>Minimum Order: ₹100</b>
+</div>
+</section>
+
+<section class="section" id="delivery">
+<h2>Delivery Areas</h2>
+<div class="info">
+  <div class="areas">
+    <span class="pill">Railway Colony</span>
+    <span class="pill">Dharmganj</span>
+    <span class="pill">Hospital Road</span>
+    <span class="pill">Teghariya</span>
+    <span class="pill">MGM</span>
+    <span class="pill">Khagra</span>
+    <span class="pill">Dumariya</span>
+    <span class="pill">Dumariya Bhatta</span>
+    <span class="pill">Dhobipatti</span>
+  </div>
+  <p style="text-align:center;margin-top:22px"><b>Delivery charge इलाके के अनुसार होगा।</b><br>Order करते समय exact delivery charge बताया जाएगा।</p>
+</div>
+</section>
+
+<section class="section">
+<h2>हमसे संपर्क करें</h2>
+<div class="info" style="text-align:center">
+  <p><b>Fresh Tokri</b></p>
+  <p>📱 WhatsApp: <b>91995 69545</b></p>
+  <a class="btn" href="https://wa.me/919199569545?text=Namaste%20Fresh%20Tokri%2C%20mujhe%20sabzi%20order%20karni%20hai." target="_blank">WhatsApp पर बात करें</a>
+  <p class="small">नोट: सब्ज़ियों के दाम और उपलब्धता रोज़ बदल सकती है। आज के दाम WhatsApp पर पूछें।</p>
+</div>
+</section>
+</main>
+
+<footer>
+  <b>🥬 Fresh Tokri</b><br>
+  Fresh vegetables • Home delivery<br><br>
+  <span class="small">© Fresh Tokri</span>
+</footer>
+</body>
+</html>
